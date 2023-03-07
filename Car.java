@@ -10,6 +10,7 @@ public class Car {
 
 /* description: constructor taking in the car's max capacity, initializing an appropriately sized array list
  * param: maxCapacity
+ * returns: Car object
  */
     public Car(int maxCapacity) {
         this.maxCapacity = maxCapacity;
