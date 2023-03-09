@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Engine {
 
     // private FuelType attribute to indicate what type of fuel is used, with doubles to store the 
@@ -43,7 +41,7 @@ public class Engine {
             throw new RuntimeException("Engine has no fuel");
         }
         this.fuelAmount = fuelAmount - 1;
-        System.out.println("Current fuel level is" + this.fuelAmount);
+        System.out.println("Current fuel level is " + this.fuelAmount);
     }
     
     public static void main(String[] args) {

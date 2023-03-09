@@ -5,7 +5,7 @@ public class Car {
  * param: manifest - stores all the passengers in the current car
  * param: maxCapacity - the maximum capacity of the current train car
  */
-    private ArrayList<Passenger> manifest;
+    ArrayList<Passenger> manifest;
     int maxCapacity;
 
 /* description: constructor taking in the car's max capacity, initializing an appropriately sized array list
